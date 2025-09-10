@@ -13,7 +13,7 @@ export default function SiteHeader() {
             )}
           />
           <span className="text-base font-semibold tracking-tight">
-            CampusTrack
+            RecAura
           </span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
