@@ -21,13 +21,13 @@ export default function DashboardPreview() {
             <div className="grid grid-cols-3 gap-4">
               <div className="rounded-lg border p-4 text-center">
                 <p className="text-xs text-muted-foreground">Active Students</p>
-                <p className="mt-1 text-2xl font-bold">8,214</p>
+                <p className="mt-1 text-2xl font-bold">20</p>
               </div>
               <div className="rounded-lg border p-4 text-center">
                 <p className="text-xs text-muted-foreground">
                   Activities Logged
                 </p>
-                <p className="mt-1 text-2xl font-bold">56,902</p>
+                <p className="mt-1 text-2xl font-bold">500</p>
               </div>
               <div className="rounded-lg border p-4 text-center">
                 <p className="text-xs text-muted-foreground">
