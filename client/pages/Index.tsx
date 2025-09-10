@@ -20,7 +20,7 @@ export default function Index() {
           <div className="mt-4 text-sm">
             <a
               className="text-primary underline underline-offset-4"
-              href="mailto:?subject=CampusTrack%20Demo%20Request&body=Hi%20team%2C%20please%20contact%20me%20for%20a%20demo.%20"
+              href="mailto:?subject=RecAura%20Demo%20Request&body=Hi%20team%2C%20please%20contact%20me%20for%20a%20demo.%20"
             >
               Email us to request a demo
             </a>
