@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BadgeCheck, FolderPlus, FileSpreadsheet, Workflow, UserCheck2, Shield } from "lucide-react";
+import { BadgeCheck, FolderPlus, FileSpreadsheet, GitBranch, UserCheck2, Shield } from "lucide-react";
 
 export default function Modules() {
   return (
