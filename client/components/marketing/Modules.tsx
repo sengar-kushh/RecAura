@@ -36,7 +36,7 @@ export default function Modules() {
           <CardContent className="space-y-3 text-sm text-muted-foreground">
             <div className="flex items-center gap-2"><Shield className="size-4 text-indigo-600" /> Role-based permissions</div>
             <div className="flex items-center gap-2"><FileSpreadsheet className="size-4 text-sky-600" /> NAAC criteria mapping</div>
-            <div className="flex items-center gap-2"><Workflow className="size-4 text-emerald-600" /> Centralised analytics</div>
+            <div className="flex items-center gap-2"><GitBranch className="size-4 text-emerald-600" /> Centralised analytics</div>
           </CardContent>
         </Card>
       </div>
