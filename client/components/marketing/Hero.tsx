@@ -9,12 +9,18 @@ export default function Hero() {
       </div>
       <div className="container relative grid gap-10 pb-12 pt-16 md:grid-cols-2 md:gap-16 md:pb-20 md:pt-24">
         <div className="flex flex-col items-start gap-6">
-          <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-600/20">For HEIs • NAAC & NEP ready</span>
+          <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-xs font-medium text-indigo-700 ring-1 ring-inset ring-indigo-600/20">
+            For HEIs • NAAC & NEP ready
+          </span>
           <h1 className="text-balance text-4xl font-extrabold tracking-tight md:text-5xl">
-            Centralised Digital Platform for Comprehensive Student Activity Records
+            Centralised Digital Platform for Comprehensive Student Activity
+            Records
           </h1>
           <p className="text-pretty text-base text-muted-foreground md:text-lg">
-            CampusTrack unifies every certificate, event, co/extra-curricular achievement, and extension activity into verified portfolios—streamlining approvals, compliance, and analytics across your institution.
+            CampusTrack unifies every certificate, event, co/extra-curricular
+            achievement, and extension activity into verified
+            portfolios—streamlining approvals, compliance, and analytics across
+            your institution.
           </p>
           <div className="flex flex-wrap items-center gap-3">
             <Button size="lg" asChild>
@@ -25,9 +31,18 @@ export default function Hero() {
             </Button>
           </div>
           <div className="flex items-center gap-6 pt-2 text-sm text-muted-foreground">
-            <div className="flex items-center gap-2"><span className="size-2 rounded-full bg-emerald-500" />Realtime verifications</div>
-            <div className="flex items-center gap-2"><span className="size-2 rounded-full bg-sky-500" />Role-based access</div>
-            <div className="flex items-center gap-2"><span className="size-2 rounded-full bg-indigo-500" />Export-ready reports</div>
+            <div className="flex items-center gap-2">
+              <span className="size-2 rounded-full bg-emerald-500" />
+              Realtime verifications
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="size-2 rounded-full bg-sky-500" />
+              Role-based access
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="size-2 rounded-full bg-indigo-500" />
+              Export-ready reports
+            </div>
           </div>
         </div>
         <div className="relative">
@@ -39,16 +54,24 @@ export default function Hero() {
                 <p className="mt-3 text-xs opacity-90">This year</p>
               </div>
               <div className="rounded-lg border p-4">
-                <p className="text-sm text-muted-foreground">Pending Approvals</p>
+                <p className="text-sm text-muted-foreground">
+                  Pending Approvals
+                </p>
                 <p className="mt-2 text-3xl font-bold">73</p>
                 <p className="mt-3 text-xs text-emerald-600">−18% this month</p>
               </div>
               <div className="col-span-2 rounded-lg border p-4">
                 <p className="text-sm text-muted-foreground">Top Categories</p>
                 <div className="mt-3 grid grid-cols-3 gap-2 text-sm">
-                  <div className="rounded-md bg-indigo-50 px-3 py-2 text-indigo-700 dark:bg-indigo-500/10 dark:text-indigo-300">NSS</div>
-                  <div className="rounded-md bg-sky-50 px-3 py-2 text-sky-700 dark:bg-sky-500/10 dark:text-sky-300">Sports</div>
-                  <div className="rounded-md bg-emerald-50 px-3 py-2 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-300">Cultural</div>
+                  <div className="rounded-md bg-indigo-50 px-3 py-2 text-indigo-700 dark:bg-indigo-500/10 dark:text-indigo-300">
+                    NSS
+                  </div>
+                  <div className="rounded-md bg-sky-50 px-3 py-2 text-sky-700 dark:bg-sky-500/10 dark:text-sky-300">
+                    Sports
+                  </div>
+                  <div className="rounded-md bg-emerald-50 px-3 py-2 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-300">
+                    Cultural
+                  </div>
                 </div>
               </div>
             </div>

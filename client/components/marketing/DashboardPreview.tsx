@@ -4,8 +4,13 @@ export default function DashboardPreview() {
   return (
     <section id="preview" className="container py-16 md:py-24">
       <div className="mx-auto max-w-3xl text-center">
-        <h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">A glimpse of your command center</h2>
-        <p className="mt-4 text-muted-foreground">Real-time visibility across departments, programs, and years. Drill down to the last certificate.</p>
+        <h2 className="text-balance text-3xl font-bold tracking-tight md:text-4xl">
+          A glimpse of your command center
+        </h2>
+        <p className="mt-4 text-muted-foreground">
+          Real-time visibility across departments, programs, and years. Drill
+          down to the last certificate.
+        </p>
       </div>
       <div className="mt-10 grid gap-6 md:grid-cols-2">
         <Card className="overflow-hidden">
@@ -19,11 +24,15 @@ export default function DashboardPreview() {
                 <p className="mt-1 text-2xl font-bold">8,214</p>
               </div>
               <div className="rounded-lg border p-4 text-center">
-                <p className="text-xs text-muted-foreground">Activities Logged</p>
+                <p className="text-xs text-muted-foreground">
+                  Activities Logged
+                </p>
                 <p className="mt-1 text-2xl font-bold">56,902</p>
               </div>
               <div className="rounded-lg border p-4 text-center">
-                <p className="text-xs text-muted-foreground">Verification SLA</p>
+                <p className="text-xs text-muted-foreground">
+                  Verification SLA
+                </p>
                 <p className="mt-1 text-2xl font-bold text-emerald-600">1.2d</p>
               </div>
             </div>
@@ -36,10 +45,19 @@ export default function DashboardPreview() {
           </CardHeader>
           <CardContent>
             <div className="space-y-3">
-              {["Dept Chair Review", "IQAC Validation", "Principal Approval"].map((s, i) => (
-                <div key={s} className="flex items-center justify-between rounded-md border p-3">
+              {[
+                "Dept Chair Review",
+                "IQAC Validation",
+                "Principal Approval",
+              ].map((s, i) => (
+                <div
+                  key={s}
+                  className="flex items-center justify-between rounded-md border p-3"
+                >
                   <div className="text-sm font-medium">{s}</div>
-                  <div className="text-xs text-muted-foreground">{i === 0 ? "Active" : i === 1 ? "Queued" : "0 pending"}</div>
+                  <div className="text-xs text-muted-foreground">
+                    {i === 0 ? "Active" : i === 1 ? "Queued" : "0 pending"}
+                  </div>
                 </div>
               ))}
             </div>
