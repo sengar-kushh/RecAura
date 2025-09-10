@@ -25,7 +25,7 @@ export default function Modules() {
           </CardHeader>
           <CardContent className="space-y-3 text-sm text-muted-foreground">
             <div className="flex items-center gap-2"><UserCheck2 className="size-4 text-emerald-600" /> Verify and approve submissions</div>
-            <div className="flex items-center gap-2"><Workflow className="size-4 text-indigo-600" /> Configure workflows & SLAs</div>
+            <div className="flex items-center gap-2"><GitBranch className="size-4 text-indigo-600" /> Configure workflows & SLAs</div>
             <div className="flex items-center gap-2"><FileSpreadsheet className="size-4 text-sky-600" /> Export reports & evidence</div>
           </CardContent>
         </Card>
