@@ -17,7 +17,7 @@ export default function Hero() {
             Records
           </h1>
           <p className="text-pretty text-base text-muted-foreground md:text-lg">
-            CampusTrack unifies every certificate, event, co/extra-curricular
+            RecAura unifies every certificate, event, co/extra-curricular
             achievement, and extension activity into verified
             portfolios—streamlining approvals, compliance, and analytics across
             your institution.
