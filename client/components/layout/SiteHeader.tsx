@@ -47,7 +47,7 @@ export default function SiteHeader() {
             <a href="#contact">Contact</a>
           </Button>
           <Button asChild>
-            <a href="mailto:?subject=CampusTrack%20Demo%20Request&body=Hi%20team%2C%20I%27d%20like%20a%20demo%20of%20CampusTrack.%20">
+            <a href="mailto:?subject=RecAura%20Demo%20Request&body=Hi%20team%2C%20I%27d%20like%20a%20demo%20of%20RecAura.%20">
               Request demo
             </a>
           </Button>
