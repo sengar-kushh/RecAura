@@ -50,7 +50,7 @@ export default function Hero() {
             <div className="grid grid-cols-2 gap-4">
               <div className="rounded-lg bg-gradient-to-br from-indigo-500 to-sky-500 p-4 text-white">
                 <p className="text-sm opacity-90">Total Activities</p>
-                <p className="mt-2 text-3xl font-bold">12,486</p>
+                <p className="mt-2 text-3xl font-bold">100</p>
                 <p className="mt-3 text-xs opacity-90">This year</p>
               </div>
               <div className="rounded-lg border p-4">
