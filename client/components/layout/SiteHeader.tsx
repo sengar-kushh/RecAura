@@ -6,7 +6,7 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
+        <a href="/" className="flex items-center gap-2">
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Ff9e52e7bd9fe4090957c1fa73236fcca%2F1e9b0b992ade494b888a2b91fe8111f8?format=webp&width=800"
             alt="RecAura logo"
@@ -15,7 +15,7 @@ export default function SiteHeader() {
           <span className="text-base font-semibold tracking-tight">
             RecAura
           </span>
-        </Link>
+        </a>
         <nav className="hidden items-center gap-6 md:flex">
           <a
             href="#features"
